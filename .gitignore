@@ -79,4 +79,4 @@ fabric.properties
 #intellij files
 .idea/*.xml
 
-out/*
+out/
