@@ -1,4 +1,4 @@
-package LambdaFunction;
+package functionlambda;
 
 public class Client {
 
