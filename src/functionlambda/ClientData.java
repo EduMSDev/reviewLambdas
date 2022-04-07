@@ -14,6 +14,7 @@ public class ClientData {
 
         clientsNames.forEach(System.out::println);
     }
+
     /*The function interface uses the first generic to specify the type of
      the input object and the second is the type of the output object.*/
     public static List<Object> getClientsData(List<Client> clients, Function<Client, Object> function) {

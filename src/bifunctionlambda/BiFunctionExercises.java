@@ -7,6 +7,6 @@ public class BiFunctionExercises {
     and the second is the type of the output object. */
     public static void main(String[] args) {
         BiFunction<String, String, String> bi = (x, y) -> x = y;
-        System.out.println(bi.apply("Hello","World"));
+        System.out.println(bi.apply("Hello", "World"));
     }
 }
