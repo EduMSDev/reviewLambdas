@@ -6,7 +6,7 @@ import java.util.function.Predicate;
 
 public class Evaluate {
 
-    public List<Employee> evaluate(List<Employee> employeeList, Predicate <Employee> eval) {    
+    public List<Employee> evaluate(List<Employee> employeeList, Predicate<Employee> eval) {
         List<Employee> employeesFiltered = new ArrayList<>();
 
         for (Employee employee : employeeList) {

@@ -32,6 +32,6 @@ public class Principal {
         }
 
         System.out.println("New Salaries");
-        youngEmployees.forEach(employee -> System.out.println("Name: "+ employee.getName()+ ", salary: " + employee.getSalary()));
+        youngEmployees.forEach(employee -> System.out.println("Name: " + employee.getName() + ", salary: " + employee.getSalary()));
     }
 }
